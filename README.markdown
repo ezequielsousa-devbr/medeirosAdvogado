@@ -36,3 +36,9 @@ Para mais informações ou entrar em contato com o desenvolvedor, envie sua mens
 	Nome: Ezequiel Sousa, Desenvolvedor Web.<br>
 	Email: ezequielsousa.contato@outlook.com<br>
 </address>
+
+#### SCREENSHOT DESKTOP HEADER
+![Screenshot Desktop Header](./img/screenshot-desktop.png)
+
+#### SCREENSHOT DESKTOP CONTACTS
+![Screenshot Desktop Contacts](./img/screenshot-desktop-contacts.png)
