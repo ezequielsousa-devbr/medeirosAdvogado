@@ -1,0 +1,157 @@
+/* CONFIGURAÇÕES DA FOLHA DA PAGINA */
+
+/* Fonts Importadas */
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap');
+
+/* Header */
+.logo {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	filter: saturate(1.5) contrast(1.5);
+}
+
+.logo--title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+
+.logo--title h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 25px;
+	text-transform: uppercase;
+	color: rgb(255,255,255);
+	text-align: center;
+}
+
+.logo--title span {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 75px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 25px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: rgb(215,106,40);
+}
+/* FIM HEADER */
+
+/* Section Layout Background */
+.d-column-8 {
+	background-color: rgb(32,28,51);
+	filter: brightness(1.5) contrast(1.5);
+}
+
+.d-column-4 {
+	background-color: rgb(215,106,40);
+	filter: saturate(1.2) contrast(1.1);
+}
+
+.container-bg {
+	background-color: rgb(32,28,51);
+	filter: brightness(1.1) saturate(1.2) contrast(1.1);
+}
+/* FIM SECTION BACKGROUND */
+
+/* Section Name e Contacts */
+.logo--title-name h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 75px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 25px;
+	text-transform: uppercase;
+	color: rgb(255,255,255);
+	text-align: center;
+}
+
+.logo--title-name span {
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 25px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: rgb(215,106,40);
+}
+
+.information {
+	display: block;
+	margin: 150px auto auto auto;
+	text-align: center;
+}
+
+.information ul {
+	display: inline-block;
+}
+
+.information li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 38px;
+	text-align: initial;
+	color: #ffffff;
+	list-style: none;
+	list-style-position: outside;
+	line-height: 75px;
+	letter-spacing: 10px;
+	vertical-align: middle;
+}
+
+.information li::before {
+	content: "";
+	background-image: url(./img/share-64x64.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: local;
+	padding: 25px;
+	margin: auto 20px auto auto;
+}
+
+.information a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.information a:hover {
+	color: rgb(215,106,40);
+}
+/* FIM Section Name e Contacts */
+
+/* Buttons Share */
+.contain-button {
+	display: block;
+	text-align: center;
+}
+
+.btn-button {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	color: #ffffff;
+	border: 5px solid rgb(215,106,40);
+	border-radius: 50px;
+	margin: 20px auto;
+	padding: 20px 50px;
+	background-color: transparent;
+	letter-spacing: 3px;
+}
+
+.btn-button:hover {
+	transform: scale(1.1);
+	transition: .3s ease;
+}
+/* FIM Buttons Share */
