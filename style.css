@@ -6,6 +6,19 @@
 /* font-family: 'Montserrat', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap');
 
+::-webkit-scrollbar {
+	width: 10px; height: 20px;
+}
+::-webkit-scrollbar-track {
+	background-color: ghostwhite;
+}
+::-webkit-scrollbar-thumb {
+	background-color: orangered;
+}
+::-webkit-scrollbar-button {
+	background-color: black;
+}
+
 /* Header */
 .logo {
 	display: flex;
